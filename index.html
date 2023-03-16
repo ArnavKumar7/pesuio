@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Webpage</title>
+    <script>
+      function myFunction() {
+        var x = document.createElement("P");
+        var t = document.createTextNode("This is a paragraph.");
+        x.appendChild(t);
+        document.getElementById("container").appendChild(x);
+        document.querySelectorAll("li")[1].style.color = "red";
+      }
+    </script>
+    <style>
+      body {
+        background-color: aliceblue;
+        margin: auto;
+      }
+      h1 {
+        color: red;
+        text-align: center;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: medium;
+        font-weight: bold;
+        color: blue;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">My First Heading</h1>
+    <p>My First Paragraph</p>
+    <ul>
+      <li>Something</li>
+      <li>Something</li>
+    </ul>
+    <div id="container"></div>
+    <button onclick="myFunction()">Click Me</button>
+    <br />
+    <a href="./newpage.html">GO to New Page</a>
+  </body>
+</html>
