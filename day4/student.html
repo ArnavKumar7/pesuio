@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to Student Registration System!</h1>
+    <div id="empty-space"></div>
+    <h2>Please fill the details below</h2>
+    <h4>
+      <form id="myForm">
+        Name:
+        <input type="text" name="name" placeholder="Enter your name" required />
+        <br />
+        Age:
+        <input type="number" name="age" placeholder="Enter your age" required />
+        <br />
+        SRN:
+        <input type="text" name="srn" placeholder="Enter your SRN" required />
+        <br />
+        Comments:
+        <input
+          type="text"
+          name="comments"
+          placeholder="Something about you"
+          required
+        />
+        <br />
+      </form>
+      <button id="sub" onclick="studentdb()">Store User</button>
+      <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+      <script src="connection.js"></script>
+    </h4>
+  </body>
+</html>

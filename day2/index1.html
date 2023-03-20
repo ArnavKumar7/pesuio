@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <script>
+      function myFunction() {
+        var x = document.createElement("P");
+        var t = document.createTextNode("This is a paragraph.");
+        x.appendChild(t);
+        document.getElementById("container").appendChild(x);
+        document.querySelectorAll("li")[0].innerHTML = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p style="font-weight: bold">My first paragraph.</p>
+    <div id="container"></div>
+    <ul id="listing">
+      <li>SOmething</li>
+      <li>SOmething</li>
+    </ul>
+    <button onclick="myFunction()">Click me</button>
+    <a href="./newpage.html" class="button">New Page</a>
+    <a href="./grids.html"> <- To Grids Page</a>
+    <br />
+    <form action="https://google.com/search">
+      All these words:<input type="text" name="as_q" /> <br /><br />Exact
+      word/phrase:<input type="text" name="as_epq" /> <br /><br />Any of these
+      words:<input type="text" name="as_oq" /> <br /><br />None of these
+      words:<input type="text" name="as_eq" /> <br /><br />
+      <input type="submit" value="advanced search" />
+    </form>
+  </body>
+</html>

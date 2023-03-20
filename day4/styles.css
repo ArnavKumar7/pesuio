@@ -1,0 +1,34 @@
+body {
+  background-color: turquoise;
+  color: red;
+  border: 2px solid green;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+  font-size: 200%;
+}
+
+h1 {
+  color: blue;
+  font-size: 150%;
+  border: 2px solid green;
+  padding: 30px;
+  font-family: verdana;
+}
+
+h2 {
+  font-size: 100%;
+  border: 2px solid green;
+  padding: 30px;
+  font-family: verdana;
+}
+
+h4 {
+  color: green;
+  font-size: 70%;
+  border: 2px solid green;
+  padding: 30px;
+}
+
+input {
+  margin-bottom: 10px;
+}

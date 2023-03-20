@@ -1,0 +1,38 @@
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+  color: blue;
+}
+body {
+  background-color: aliceblue;
+  padding-top: 50px;
+  align-items: center;
+}
+
+* {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 50px;
+}
+
+image {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}

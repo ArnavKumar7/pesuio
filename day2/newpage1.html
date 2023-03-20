@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <head>
+      <!-- <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          } else {
+            document.getElementById("demo").innerHTML = x;
+            return false;
+          }
+        }
+      </script> -->
+      <script src="script.js"></script>
+    </head>
+    <!-- <style>
+      input {
+        display: block;
+        margin-bottom: 10px;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: medium;
+        font-weight: bold;
+        color: blue;
+      }
+      body {
+        background-color: aliceblue;
+      }
+    </style> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <image src="./How-To-Display-Your-Name.jpg" />
+    <br />
+    <h1>Write your name and get it displayed!!</h1>
+    Name: <input id="name" />
+
+    <button type="button" onclick="myFunction()">Submit</button>
+
+    <p id="demo" style="font-weight: bold"></p>
+    <!-- <script>
+      function myFunction() {
+        let x = document.getElementById("name").value;
+        // If x is Not a Number or less than one or greater than 10
+        let text;
+        if (x === "") {
+          text = "Input not valid";
+        } else {
+          text = "Input OK";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script> -->
+
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+      Name: <input type="text" name="fname" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <a href="./index.html">GO back to main page </a>
+  </body>
+</html>
